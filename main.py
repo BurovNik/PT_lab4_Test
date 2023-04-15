@@ -98,6 +98,8 @@ def closure_del_str(my_str: str):
 
 test_str = closure_del_str('Test string')
 print(test_str('s'))
+test_str = closure_del_str('Test string')
+print(test_str('t'))
 
 
 # task 9
